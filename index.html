@@ -1,0 +1,2546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- animation -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ************************************************************* -->
+  </head>
+
+  <body style="height: 1000px">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- ************************************************************************** -->
+
+        <!-- Navbar Section Start -->
+
+        <div class="col-md-12 bg-light position-fixed" style="z-index: 1">
+          <!-- nested grid system -->
+          <div class="row p-3">
+            <div class="col-md-2">
+              <h2 class="mt-2">Yummy <sub class="text-danger">.</sub></h2>
+            </div>
+
+            <div class="col-md-8">
+              <nav class="navbar navbar-expand-lg navbar-light fw-bold">
+                <button
+                  class="navbar-toggler"
+                  data-bs-target="#nav"
+                  data-bs-toggle="collapse"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav">
+                  <ul class="navbar-nav m-auto">
+                    <li class="nav-item mx-3">
+                      <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a href="#events" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a href="#chefs" class="nav-link">Chefs</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a href="#gallery" class="nav-link">Gallary</a>
+                    </li>
+                    <li
+                      class="nav-item me-2 dropdown"
+                      data-bs-toggle="dropdown"
+                    >
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        style="font-weight: 600; width: fit-content"
+                        >Dropdown</a
+                      >
+
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                          <a href="#" class="nav-link">Dropdown 1</a>
+                        </li>
+
+                        <li
+                          class="dropdown-item dropdown"
+                          data-bs-toggle="dropdown"
+                        >
+                          <a href="#" class="nav-link dropdown-toggle"
+                            >Deep Dropdown</a
+                          >
+
+                          <ul
+                            class="dropdown-menu"
+                            style="position: absolute; left: -100px"
+                          >
+                            <li class="dropdown-item">
+                              <a href="#" class="nav-link">Deep Dropdown 1</a>
+                            </li>
+                            <li class="dropdown-item">
+                              <a href="#" class="nav-link">DeepDropdown 2</a>
+                            </li>
+                            <li class="dropdown-item">
+                              <a href="#" class="nav-link">Deep Dropdown 3</a>
+                            </li>
+                            <li class="dropdown-item">
+                              <a href="#" class="nav-link">Deep Dropdown 4</a>
+                            </li>
+                            <li class="dropdown-item">
+                              <a href="#" class="nav-link">Deep Dropdown 5</a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="dropdown-item">
+                          <a href="#" class="nav-link">Dropdown 2</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a href="#" class="nav-link">Dropdown 3</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a href="#" class="nav-link">Dropdown 4</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                      <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+
+            <div class="col-md-2 text-center-lg text-left-sm">
+              <button
+                class="btn btn-danger px-4 mt-2 fw-bold"
+                style="
+                  border-radius: 20px;
+                  background-color: #ce1212 !important;
+                "
+              >
+                Book A Table
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navbar Section end -->
+
+        <!-- **************************************************************************** -->
+
+        <!-- home section -->
+        <div
+          class="col-md-12 p-5"
+          id="home"
+          style="
+            background-color: #f2f2f2 !important;
+            margin-top: 90px !important;
+            z-index: -1 !important;
+          "
+        >
+          <!-- nested grid -->
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-6 p-5">
+              <p
+                class="text-lg display1 mt-3 fw-bold"
+                style="font-family: Amatic SC, sans-serif; font-size: 48px"
+              >
+                ENJOY YOUR HEALTHY
+                <br />DELICIOUS FOOD
+              </p>
+
+              <p class="blockquote my-3">
+                We are team of talented designers making websites with Bootstrap
+              </p>
+
+              <div class="mt-4">
+                <button
+                  class="btn btn-danger px-4 fw-bold"
+                  style="
+                    border-radius: 20px;
+                    background-color: #ce1212 !important;
+                  "
+                >
+                  Book A Table
+                </button>
+                <button
+                  class="btn btn-light px-4 fw-bold"
+                  style="border-radius: 20px"
+                >
+                  <i
+                    class="bi bi-youtube me-2"
+                    style="color: #ce1212 !important"
+                  ></i
+                  >Watch Video
+                </button>
+              </div>
+            </div>
+
+            <!-- section 2 -->
+            <div class="col-md-6 text-center">
+              <img
+                src="./assets/home.png"
+                class="img-fluid foodImage"
+                alt=""
+                style="height: 490px"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- about us section -->
+
+        <div class="about" id="about">
+          <div
+            class="col-md-12 p-3"
+            style="
+              background-color: #ffffff !important;
+              margin-top: 10px !important;
+            "
+          >
+            <div class="row" data-aos="fade-up">
+              <h5 class="fw-light fs-6 text-center text-secondary mt-2">
+                ABOUT US
+              </h5>
+
+              <p
+                class="text-lg h3 text-center mt-3"
+                style="font-family: Amatic SC, sans-serif; font-size: 48px"
+              >
+                LEARN MORE
+                <span class="text-danger">ABOUT US</span>
+              </p>
+              <div class="col-md-8">
+                <img src="./assets/about.jpg" alt="" class="img-fluid mb-4" />
+
+                <div class="box text-center">
+                  <div class="row">
+                    <h2>Book a Table</h2>
+                    <br />
+                    <h3>+1 5589 55488 55</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+                <p>
+                  <i class="bi bi-check-circle-fill me-2"></i>Ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p class>
+                  <i class="bi bi-check-circle-fill me-2"></i>Duis aute irure
+                  dolor in reprehenderit in voluptate velit.
+                </p>
+                <p>
+                  <i class="bi bi-check-circle-fill me-2"></i>Ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate trideta storacalaperda mastiro
+                  dolore eu fugiat nulla pariatur.
+                </p>
+
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident
+                </p>
+
+                <img src="./assets/about1.jpg" alt="" class="img-fluid" />
+                <div class="youtube">
+                  <a href="#" class="icon" title="User Profile"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- why section -->
+
+        <div
+          class="col-md-12 p-5"
+          style="
+            background-color: #f2f2f2 !important;
+            margin-top: 30px !important;
+            z-index: -1 !important;
+          "
+        >
+          <div class="row" data-aos="fade-up">
+            <div class="col-md-4">
+              <div class="row p-3 text-center">
+                <div class="why m-2">
+                  <h4>Why Choose Yummy</h4>
+                  <br />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Duis aute irure dolor in reprehenderit Asperiores
+                    dolores sed et. Tenetur quia eos. Autem tempore quibusdam
+                    vel necessitatibus optio ad corporis.
+                  </p>
+
+                  <div class="buton text-center">
+                    <button class="btn btn-light">
+                      <span>Learn More</span>
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#" class="btn"></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-8 mt-4">
+              <div class="row ms-3 mt-xl-0">
+                <div class="col-md-4 text-center" data-aos="fade-up">
+                  <div
+                    class="text-center bg-light p-5"
+                    style="height: 400px !important"
+                  >
+                    <h1 class="mt-4"><i class="bi bi-clipboard-data"></i></h1>
+                    <h5 class="mt-3 text-center">
+                      Corporis voluptates officia eiusmod
+                    </h5>
+                    <p class="mt-3">
+                      Consequuntur sunt aut quasi enim aliquam quae harum
+                      pariatur laboris nisi ut aliquip
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                  <div
+                    class="text-center bg-light p-5"
+                    style="height: 400px !important"
+                  >
+                    <h1 class="mt-4"><i class="bi bi-gem"></i></h1>
+                    <h5 class="mt-3 text-center">
+                      Ullamco laboris ladore lore pan
+                    </h5>
+                    <p class="mt-3">
+                      Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                  <div
+                    class="text-center bg-light p-5"
+                    style="height: 400px !important"
+                  >
+                    <h1 class="mt-4"><i class="bi bi-inboxes"></i></h1>
+                    <h5 class="mt-3 text-center">
+                      Labore consequatur incidid dolore
+                    </h5>
+                    <p class="mt-3">
+                      Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                      maiores omnis facere
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row" data-aos="fade-up">
+            <img
+              src="./assets/about2.jpg"
+              alt=""
+              class="img-fluid"
+              style="width: 100%; height: 400px"
+            />
+          </div>
+        </div>
+
+        <!-- menu -->
+
+        <div class="row">
+          <div class="col-md-12 text-center mt-5" data-aos="fade-up" id="menu">
+            <p
+              style="
+                color: #909294;
+                font-size: 13px;
+                font-family: Roboto, sans-serif;
+                text-transform: uppercase;
+                font-weight: 400;
+              "
+            >
+              Our Menu
+            </p>
+            <h1 style="font-family: Amatic SC, sans-serif; font-size: 48px">
+              Check Our <span style="color: #ce1212">Yummy Menu </span>
+            </h1>
+          </div>
+        </div>
+
+        <!-- nav tab using ul tab with data-bs ,target,toggle -->
+
+        <div class="row">
+          <div class="col-md-12 mt-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg">
+                  <ul
+                    class="nav nav-tabs m-auto menucards"
+                    id="myTab"
+                    role="tablist"
+                    style="
+                      font-size: 18px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 400;
+                      color: #37373f;
+                    "
+                  >
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href=""
+                        class="nav-link me-2"
+                        data-bs-target="#starters"
+                        data-bs-toggle="tab"
+                        >Starters</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href=""
+                        class="nav-link me-2"
+                        data-bs-target="#breakfast"
+                        data-bs-toggle="tab"
+                        >Breakfast</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href=""
+                        class="nav-link me-2"
+                        data-bs-target="#lunch"
+                        data-bs-toggle="tab"
+                        >Lunch</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href=""
+                        class="nav-link me-2"
+                        data-bs-target="#dinner"
+                        data-bs-toggle="tab"
+                        >Dinner</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  Tab-content  for starters,breakfast,lunch,Dinner-->
+        <div class="tab-content" data-aos="fade-up">
+          <!-- Starters -->
+
+          <div class="row tab-pane active" id="starters" role="tabpanel">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h5
+                    style="
+                      font-size: 14px;
+                      font-weight: 400;
+                      font-family: Roboto, sans-serif;
+                    "
+                  >
+                    Menu
+                  </h5>
+                  <h2
+                    style="
+                      color: #ce1212;
+                      font-family: Amatic SC, sans-serif;
+                      font-size: 48px;
+                      font-weight: 700;
+                    "
+                  >
+                    Starters
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/home.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Magnam Tiste
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $5.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu2.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Aut Luia
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $14.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu3.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Est Eligendi
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $8.95
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 text-center mt-3 p-3">
+                  <img
+                    src="./assets/menu4.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu5.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu6.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Laboriosam Direva
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $9.95
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Breakfast -->
+
+          <div class="row tab-pane fade" id="breakfast" role="tabpanel">
+            <div class="col-md-12" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h5
+                    style="
+                      font-size: 14px;
+                      font-weight: 400;
+                      font-family: Roboto, sans-serif;
+                    "
+                  >
+                    Menu
+                  </h5>
+                  <h2
+                    style="
+                      color: #ce1212;
+                      font-family: Amatic SC, sans-serif;
+                      font-size: 48px;
+                      font-weight: 700;
+                    "
+                  >
+                    Breakfast
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/home.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Magnam Tiste
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $5.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu2.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Aut Luia
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $14.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu3.png"
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Est Eligendi
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $8.95
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 text-center mt-3 p-3">
+                  <img
+                    src="./assets/menu4.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu5.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu6.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Laboriosam Direva
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $9.95
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lunch -->
+
+          <div class="row tab-pane fade" id="lunch" role="tabpanel">
+            <div class="col-md-12" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h5
+                    style="
+                      font-size: 14px;
+                      font-weight: 400;
+                      font-family: Roboto, sans-serif;
+                    "
+                  >
+                    Menu
+                  </h5>
+                  <h2
+                    style="
+                      color: #ce1212;
+                      font-family: Amatic SC, sans-serif;
+                      font-size: 48px;
+                      font-weight: 700;
+                    "
+                  >
+                    Lunch
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/home.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Magnam Tiste
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $5.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu2.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Aut Luia
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $14.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu3.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Est Eligendi
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $8.95
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 text-center mt-3 p-3">
+                  <img
+                    src="./assets/menu4.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu5.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu6.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Laboriosam Direva
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $9.95
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dinner -->
+
+          <div class="row tab-pane fade" id="dinner" role="tabpanel">
+            <div class="col-md-12" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h5
+                    style="
+                      font-size: 14px;
+                      font-weight: 400;
+                      font-family: Roboto, sans-serif;
+                    "
+                  >
+                    Menu
+                  </h5>
+                  <h2
+                    style="
+                      color: #ce1212;
+                      font-family: Amatic SC, sans-serif;
+                      font-size: 48px;
+                      font-weight: 700;
+                    "
+                  >
+                    Dinner
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/home.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Magnam Tiste
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $5.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu2.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Aut Luia
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $14.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu3.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Est Eligendi
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $8.95
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 text-center mt-3 p-3">
+                  <img
+                    src="./assets/menu4.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p>Lorem, deren, trataro, filede, nerada</p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu5.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Eos Luibusdam
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $12.95
+                  </p>
+                </div>
+                <div class="col-md-4 text-center p-3">
+                  <img
+                    src="./assets/menu6.png"
+                    alt=""
+                    class="img-fluid"
+                    style="height: 200px"
+                  />
+                  <h2
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 24px;
+                      font-weight: 400;
+                      color: rgb(55, 55, 63);
+                    "
+                  >
+                    Laboriosam Direva
+                  </h2>
+                  <p
+                    style="
+                      font-family: Inter, sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #909294;
+                    "
+                  >
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p
+                    style="
+                      font-size: 24px;
+                      font-family: Roboto, sans-serif;
+                      font-weight: 700;
+                      color: #ce1212;
+                    "
+                  >
+                    $9.95
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tab content ends -->
+
+        <!-- testimonial -->
+        <!-- ********************************************************************* -->
+
+        <div
+          class="col-md-12 p-5"
+          style="
+            background-color: #f2f2f2 !important;
+            margin-top: 90px !important;
+            z-index: -1;
+          "
+        >
+          <p
+            style="
+              color: #909294;
+              font-size: 13px;
+              font-family: Roboto, sans-serif;
+              text-transform: uppercase;
+              font-weight: 400;
+              text-align: center;
+            "
+          >
+            TESTIMONIALS
+          </p>
+          <h1
+            style="
+              font-family: Amatic SC, sans-serif;
+              font-size: 48px;
+              text-align: center;
+            "
+          >
+            What Are They <span style="color: #ce1212">Saying About Us </span>
+          </h1>
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-md-12 text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <p style="text-align: justify">
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec
+                        porttitora entum suscipit rhoncus. Accusantium quam,
+                        ultricies eget id, aliguam eget nibh et. Maecen aliquam,
+                        risus at semper.<i
+                          class="bi bi-quote quote-icon-right"
+                        ></i>
+                      </p>
+
+                      <br />
+                      <h6 style="text-align: justify">SAUL GOODMAN</h6>
+                      <p style="text-align: justify">CEO & FOUNDER</p>
+
+                      <div class="stars" style="text-align: justify">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-3 align-items-center">
+                      <img src="./assets/pho1.jpg" alt="" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        Export tempor illum tamen mails malis eram quae irure
+                        esse labore quem cillum ream mails quorum velit fore
+                        eram velit sunt aliqua noster fugiat irure amet legam
+                        anim culpa.</span
+                      >
+                      <i class="bi bi-quote quote-icon-right"></i>
+                      <br />
+                      <h3>SARA WILSSON</h3>
+                      <p>DESIGNER</p>
+
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="./assets/pho2.jpg" alt="" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span
+                        >Enium nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</span
+                      >
+                      <i class="bi bi-quote quote-icon-right"></i>
+                      <br />
+                      <h3>JENA KARLIS</h3>
+                      <p>STORE OWNER</p>
+
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="./assets/pho3.jpg" alt="" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        Fugiat enim eram quae cillum dolore dolor amet nulla
+                        culpa multos export minium fugiat minim velit minim
+                        dolor enim duis veniam ipsum anim mangna sunt elit fore
+                        quem dolore labore illum veniam.
+                      </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                      <br />
+                      <h3>JOHN LARSON</h3>
+                      <p>ENTERPREUNER</p>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="./assets/pho4.jpg" alt="" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- parties -->
+        <!-- ****************************************************************** -->
+        <div class="col-md-12">
+          <div class="row">
+            <div class="events" id="events">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="parties">
+                      <div class="col-md-4 p-1">
+                        <img src="./assets/ev1.jpg" class="d-block" alt="..." />
+                      </div>
+
+                      <div class="col-md-4 p-1">
+                        <img src="./assets/ev2.jpg" class="d-block" alt="..." />
+                      </div>
+
+                      <div class="col-md-4 p-1">
+                        <img src="./assets/ev3.jpg" class="d-block" alt="..." />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- chefs -->
+        <!-- ****************************************************************** -->
+        <div
+          class="col-md-12 p-5"
+          style="
+            background-color: #ffffff !important;
+            margin-top: 90px !important;
+          "
+        >
+          <p
+            style="
+              color: #909294;
+              font-size: 13px;
+              font-family: Roboto, sans-serif;
+              text-transform: uppercase;
+              font-weight: 400;
+              text-align: center;
+            "
+          >
+            CHEFS
+          </p>
+          <h1
+            style="
+              font-family: Amatic SC, sans-serif;
+              font-size: 48px;
+              text-align: center;
+            "
+          >
+            OUR <span style="color: #ce1212">PROFFESIONAL CHEFS </span>
+          </h1>
+
+          <div class="chefs" id="chefs">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-4 p-2" data-aos="zoom-in-up">
+                  <img src="./assets/chef1.jpg" alt="" class="img-fluid" />
+                  <div class="chefinfo">
+                    <h4>Walter White</h4>
+                    <h6>Master Chef</h6>
+                    <p>
+                      Velit aut quia fugit et et. Dolorum ea voluptate vel
+                      tempore tenetur ipsa quae aut. Ipsum exercitationem iure
+                      minima enim corporis et voluptate.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 p-2" data-aos="zoom-in-up">
+                  <img src="./assets/chef2.jpg" alt="" class="img-fluid" />
+                  <div class="chefinfo">
+                    <h4>Sarah Jhonson</h4>
+                    <h6>Patissier</h6>
+                    <p>
+                      Quo esse repellendus quia id. Est eum et accusantium
+                      pariatur fugit nihil minima suscipit corporis. Voluptate
+                      sed quas reiciendis animi neque sapiente.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 p-2" data-aos="zoom-in-up">
+                  <img src="./assets/chef3.jpg" alt="" class="img-fluid" />
+                  <div class="chefinfo">
+                    <h4>William Anderson</h4>
+                    <h6>Cook</h6>
+                    <p>
+                      Vero omnis enim consequatur. Voluptas consectetur unde qui
+                      molestiae deserunt. Voluptates enim aut architecto porro
+                      aspernatur molestiae modi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- book a table -->
+        <!-- ****************************************************************** -->
+        <div
+          class="col-md-12 p-5"
+          style="
+            background-color: #ffffff !important;
+            margin-top: 90px !important;
+          "
+        >
+          <p
+            style="
+              color: #909294;
+              font-size: 13px;
+              font-family: Roboto, sans-serif;
+              text-transform: uppercase;
+              font-weight: 400;
+              text-align: center;
+            "
+          >
+            BOOK A TABLE
+          </p>
+          <h1
+            style="
+              font-family: Amatic SC, sans-serif;
+              font-size: 48px;
+              text-align: center;
+            "
+          >
+            BOOK YOUR <span style="color: #ce1212">STAY WITH US</span>
+          </h1>
+
+          <div class="book">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/table.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div
+                class="col-md-8 text-center"
+                style="background-color: #f8f8f8; height: auto"
+              >
+                <div class="row mt-5 ms-3 me-3">
+                  <div class="col-md-4 mt-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mt-4">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mt-4">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Your Phone"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mt-2 ms-3 me-3">
+                  <div class="col-md-4 mt-4">
+                    <input type="date" class="form-control" />
+                  </div>
+                  <div class="col-md-4 mt-4">
+                    <input type="time" class="form-control" />
+                  </div>
+
+                  <div class="col-md-4 mt-4">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="# of people"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mt-2 ms-3 me-3">
+                  <div class="col-md-12 mt-4">
+                    <textarea
+                      placeholder="Message"
+                      style="width: 100%"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <button
+                    class="btn px-5 mt-4"
+                    style="
+                      background-color: #ce1212;
+                      font-weight: 500;
+                      height: 50px;
+                      width: 200px;
+                      color: white;
+                    "
+                  >
+                    Book a Table
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallary -->
+        <div
+          class="col-md-12 my-5 mt-5"
+          id="gallery"
+          style="background-color: #f2f2f2"
+          data-aos="fade-up"
+        >
+          <div class="row text-center p-5" data-aos="fade-up">
+            <p
+              style="
+                color: #909294;
+                font-size: 13px;
+                font-family: Roboto, sans-serif;
+                text-transform: uppercase;
+                font-weight: 400;
+                text-align: center;
+              "
+            >
+              GALLERY
+            </p>
+            <h1
+              style="
+                font-family: Amatic SC, sans-serif;
+                font-size: 48px;
+                text-align: center;
+              "
+            >
+              CHECK <span style="color: #ce1212">OUR GALLERY </span>
+            </h1>
+          </div>
+
+          <div class="row pb-5">
+            <div
+              id="carouselExampleSlidesOnly"
+              data-aos="fade-up"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal1.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal2.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal3.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal4.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal5.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal6.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal7.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pb-5">
+                    <img
+                      src="./assets/gal8.jpg"
+                      class="p-1"
+                      style="
+                        height: 200px;
+                        width: 300px;
+                        border: 8px solid #ce1212;
+                        border-radius: 0%;
+                      "
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="5"
+                    aria-label="Slide 6"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="6"
+                    aria-label="Slide 7"
+                  ></button>
+                  <button
+                    type="button"
+                    style="background-color: #ce1212"
+                    data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide-to="7"
+                    aria-label="Slide 8"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact -->
+        <!-- ****************************************************************** -->
+        <div class="contact" id="contact">
+          <div
+            class="col-md-12 p-2"
+            style="
+              background-color: #ffffff !important;
+              margin-top: 60px !important;
+            "
+          >
+            <p
+              style="
+                color: #909294;
+                font-size: 13px;
+                font-family: Roboto, sans-serif;
+                text-transform: uppercase;
+                font-weight: 400;
+                text-align: center;
+              "
+            >
+              CONTACT
+            </p>
+            <h1
+              style="
+                font-family: Amatic SC, sans-serif;
+                font-size: 48px;
+                text-align: center;
+              "
+            >
+              NEED HELP? <span style="color: #ce1212">CONTACT US </span>
+            </h1>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24194.89157059023!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1725975757722!5m2!1sen!2sus"
+              width="100%"
+              height="600"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <!-- *************************************************** -->
+            <div class="col-md-12 mt-4 p-2">
+              <!-- Contact section start -->
+              <div class="row">
+                <div
+                  class="col-md-6 flex-column align-items-center"
+                  data-aos="fade-up"
+                  style="height: 240px"
+                >
+                  <div class="contact-add shadow p-1 mb-2 bg-body rounded">
+                    <div
+                      class="container-add d-flex align-items-center"
+                      style="height: 95px"
+                    >
+                      <div class="d-flex" style="width: 100%; height: 70%">
+                        <div
+                          class="div ms-4 d-flex flex-column justify-content-center align-items-center"
+                          style="
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 50px;
+                            background-color: #ce1212;
+                          "
+                        >
+                          <i
+                            class="icon bi bi-geo-alt flex-shrink-0"
+                            style="font-size: 30px; color: white"
+                          ></i>
+                        </div>
+                        <div class="ms-3">
+                          <h4 class="add">Address</h4>
+                          <p class="add-sub mb-3">
+                            A108 Adam Street, New York, NY 535022
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-add shadow p-1 mb-2 bg-body rounded">
+                    <div
+                      class="container-add d-flex align-items-center"
+                      style="height: 95px"
+                    >
+                      <div class="d-flex" style="width: 100%; height: 70%">
+                        <div
+                          class="div ms-4 d-flex flex-column justify-content-center align-items-center"
+                          style="
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 50px;
+                            background-color: #ce1212;
+                          "
+                        >
+                          <i
+                            class="icon bi bi-telephone flex-shrink-0"
+                            style="font-size: 30px; color: white"
+                          ></i>
+                        </div>
+                        <div class="ms-3">
+                          <h4 class="add">Call Us</h4>
+                          <p class="add-sub mb-3">+1 5589 55488 55</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 flex-column align-items-center"
+                  data-aos="fade-up"
+                  style="height: 240px"
+                >
+                  <div class="contact-add shadow p-1 mb-2 bg-body rounded">
+                    <div
+                      class="container-add d-flex align-items-center"
+                      style="height: 95px"
+                    >
+                      <div class="d-flex" style="width: 100%; height: 70%">
+                        <div
+                          class="div ms-4 d-flex flex-column justify-content-center align-items-center"
+                          style="
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 50px;
+                            background-color: #ce1212;
+                          "
+                        >
+                          <i
+                            class="icon bi bi-envelope flex-shrink-0"
+                            style="font-size: 30px; color: white"
+                          ></i>
+                        </div>
+                        <div class="ms-3">
+                          <h4 class="add">Email Us</h4>
+                          <p class="add-sub mb-3">info@example.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-add shadow p-1 mb-2 bg-body rounded">
+                    <div
+                      class="container-add d-flex align-items-center"
+                      style="height: 95px"
+                    >
+                      <div class="d-flex" style="width: 100%; height: 70%">
+                        <div
+                          class="div ms-4 d-flex flex-column justify-content-center align-items-center"
+                          style="
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 50px;
+                            background-color: #ce1212;
+                          "
+                        >
+                          <i
+                            class="icon bi bi-clock flex-shrink-0"
+                            style="font-size: 30px; color: white"
+                          ></i>
+                        </div>
+                        <div class="ms-3">
+                          <h4 class="add">Opening Hours</h4>
+                          <p class="add-sub mb-3">
+                            <b>Mon-Sat:</b> 11AM - 23PM;<b> Sunday:</b> Closed
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- *************************************** -->
+
+          <div class="msg" style="width: 90vw">
+            <div class="col-md-12 p-5" style="box-shadow: 0px 0px 10px #717475">
+              <div class="row mb-4 mt-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="form-control"
+                    style="height: 8vh"
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="form-control"
+                    style="height: 8vh"
+                  />
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    class="form-control"
+                    style="height: 8vh"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <textarea
+                  placeholder="Message"
+                  class="form-control"
+                  style="height: 17vh"
+                ></textarea>
+              </div>
+
+              <div class="m-auto">
+                <button
+                  class="form-control bg-danger text-white fw-bold m-auto"
+                  style="width: auto; height: auto; border-radius: 50px"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <!-- ************************************** -->
+
+        <div class="footer col-md-12 mt-3" style="background-color: #1f1f24">
+          <div
+            class="col-md-10 mt-5 pb-4 m-auto"
+            style="border-bottom: 0.5px solid rgb(84, 83, 83)"
+          >
+            <div class="row">
+              <div class="col-md-3 text-light d-flex">
+                <h5><i class="bi bi-geo-alt text-danger pe-3"></i></h5>
+                <div class="d-flex flex-column">
+                  <h6>Address</h6>
+                  <p>
+                    A108 Adam Street <br />
+                    New York, NY 535022
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-light d-flex">
+                <h5><i class="bi bi-telephone text-danger pe-3"></i></h5>
+                <div class="d-flex flex-column">
+                  <h6>Contact</h6>
+                  <p>
+                    Phone: +1 5589 55488 55<br />
+                    Email: info@gmail.com
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-light d-flex">
+                <h5><i class="bi bi-clock text-danger pe-3"></i></h5>
+                <div class="d-flex flex-column">
+                  <h6>Opening Hours</h6>
+                  <p>
+                    Mon-Sat: 11AM - 23PM<br />
+                    Sunday: Closed
+                  </p>
+                </div>
+              </div>
+              <div class="follow col-md-3 text-light">
+                <h6 class="mb-3">Follow Us</h6>
+                <button
+                  class="btn rounded-circle"
+                  style="border: 1px solid grey"
+                >
+                  <i class="bi bi-twitter-x text-secondary"></i>
+                </button>
+                <button
+                  class="btn rounded-circle"
+                  style="border: 1px solid grey"
+                >
+                  <i class="bi bi-facebook text-secondary"></i>
+                </button>
+                <button
+                  class="btn rounded-circle"
+                  style="border: 1px solid grey"
+                >
+                  <i class="bi bi-instagram text-secondary"></i>
+                </button>
+                <button
+                  class="btn rounded-circle"
+                  style="border: 1px solid grey"
+                >
+                  <i class="bi bi-linkedin text-secondary"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row text-light text-center mt-4 mb-3">
+              <p style="font-size: 14px">
+                <i class="bi bi-c-circle"></i> Copyright
+                <span class="fw-bold">Yummy</span> All Rights Reserved<br />
+                Designed by <span class="text-danger">BootstrapMade</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="whatsapp-box">
+      <a href="https://wa.link/01jxa1" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- Start of LiveChat (www.livechat.com) code -->
+    <script>
+      window.__lc = window.__lc || {};
+      window.__lc.license = 18533301;
+      window.__lc.integration_name = "manual_onboarding";
+      window.__lc.product_name = "livechat";
+      (function (n, t, c) {
+        function i(n) {
+          return e._h ? e._h.apply(null, n) : e._q.push(n);
+        }
+        var e = {
+          _q: [],
+          _h: null,
+          _v: "2.0",
+          on: function () {
+            i(["on", c.call(arguments)]);
+          },
+          once: function () {
+            i(["once", c.call(arguments)]);
+          },
+          off: function () {
+            i(["off", c.call(arguments)]);
+          },
+          get: function () {
+            if (!e._h)
+              throw new Error(
+                "[LiveChatWidget] You can't use getters before load."
+              );
+            return i(["get", c.call(arguments)]);
+          },
+          call: function () {
+            i(["call", c.call(arguments)]);
+          },
+          init: function () {
+            var n = t.createElement("script");
+            (n.async = !0),
+              (n.type = "text/javascript"),
+              (n.src = "https://cdn.livechatinc.com/tracking.js"),
+              t.head.appendChild(n);
+          },
+        };
+        !n.__lc.asyncInit && e.init(),
+          (n.LiveChatWidget = n.LiveChatWidget || e);
+      })(window, document, [].slice);
+    </script>
+    <noscript
+      ><a href="https://www.livechat.com/chat-with/18533301/" rel="nofollow"
+        >Chat with us</a
+      >, powered by
+      <a
+        href="https://www.livechat.com/?welcome"
+        rel="noopener nofollow"
+        target="_blank"
+        >LiveChat</a
+      ></noscript
+    >
+    <!-- End of LiveChat code -->
+
+    <!-- initialization of animation -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
